@@ -1,0 +1,401 @@
+header
+  background: #211134 url(../img/blog/header.png) no-repeat !important
+  background-size: 600px !important
+  background-position: top center !important
+.section-contacts .contact-top, .main-box
+  background: #ebebeb
+header nav
+  top: 20px!important
+.icon-logo
+  height: auto!important
+  width: 90px!important
+header
+  height: auto!important
+.another-menu .nav-menu li a  
+  color: #fff!important
+.page-heading
+  clear: both
+  text-align: center
+  padding: 10px
+  font-family: 'ProximaNova Black' 
+  font-size: 35px
+  line-height: 38px
+  color: #ed145b
+.get-updates
+  background: #fff
+  padding: 15px 0
+  margin-bottom: 30px
+  form
+    margin: auto
+    max-width: 900px
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-wrap: wrap
+    padding: 0 20px
+    > *
+      flex: 1 1 auto
+    .title
+      background: url(../img/blog/icons/updates.png) no-repeat left center 
+      text-transform: uppercase
+      min-height: 40px
+      line-height: 40px
+      padding-left: 50px
+      font-family: 'ProximaNova Black'
+    input[type=text]
+      border: 1px solid #ebebeb
+      font-size: 16px
+      line-height: 36px
+      margin: 0 10px
+      padding: 0 10px
+    input[type=submit]
+      flex: 0
+      color: #e74c3c
+      border: 2px solid #e74c3c
+      line-height: 36px
+      font-size: 20px
+      padding: 0 10px
+      text-transform: uppercase
+
+  .title
+    color: #ed145b
+    font-size: 20px
+    line-height: 30px  
+.blog-area
+  margin: auto
+  max-width: 1000px
+  font-family: ProximaNova
+  overflow: hidden
+  h1, h2
+    font-family: 'ProximaNova Black'
+.blog-list
+  width: calc(66.666% - 20px)
+  margin-right: 20px
+  float: left
+  .blog-item
+    padding: 20px
+    margin-bottom: 20px
+    background: #fff
+    &.blog-item-wide
+      .share
+        background: #ebebeb
+        border-top: 0
+        padding: 5px 20px
+        flex-wrap: wrap
+        .title
+          color: #7e7e7e
+          font-size: 20px
+          margin-bottom: 0
+          text-transform: uppercase
+          font-family: 'ProximaNova Black'
+          text-align: center
+      img
+        width: 100%
+        margin-bottom: 20px
+        margin-top: 10px
+      > img
+        margin-top: 10px 
+    .tags-list
+      margin-top: 30px
+      display: flex
+      align-items: cener
+      justify-content: space-between
+      color: #7b7b7b
+      font-size: 14px
+      a
+       color: #7b7b7b    
+    img
+      width: 210px
+      height: auto
+      float: left
+      margin: 0 20px 10px 0
+    .meta
+      color: #7b7b7b
+      margin-bottom: 10px
+    .title    
+      color: #211134
+      font-size: 28px
+      line-height: 35px
+      margin-bottom: 10px
+    .desc
+      clear: both
+      color: #333333  
+      font-size: 16px
+      font-family: 'Open Sans'
+    .share
+      border-top: 1px solid #c6c3c1
+      padding-top: 20px
+      margin-top: 20px
+      display: flex
+      align-items: center
+      .icon
+        color: #7b7b7b
+        margin-right: 45px
+        display: flex
+        align-items: center
+        i 
+          width: 23px
+          height: 13px
+          display: inline-block
+          background: url(../img/blog/icons/comments.png) no-repeat
+          &.icon-views
+            height: 18px
+            background: url(../img/blog/icons/views.png) no-repeat
+      .ya-share2
+        margin-left: auto    
+.blog-sidebar
+  width: 33.333%
+  float: left
+  .box
+    background: #fff
+    margin-bottom: 20px
+    padding: 30px 20px
+    &.opened
+      .head
+        i
+          &:after
+            content: '\E260'
+    a
+      text-decoration: none
+    .head
+      color: #666
+      font-size: 20px
+      line-height: 30px
+      position: relative
+      text-align: center
+      text-transform: uppercase
+      padding-bottom: 2px
+      margin-bottom: 10px
+      font-family: 'ProximaNova Black'
+      i
+        display: none
+        color: #6a04a3
+        &:after
+          content: "\E259"
+      &:after
+        content: ''
+        height: 2px
+        background: #ed145b
+        width: 25px
+        display: block
+        margin: auto
+    &.tags
+      text-align: center
+      ul
+        padding: 0
+      li
+        list-slyle: none
+        display: inline-block
+        &.active
+          a
+            color: #7111a7
+        a
+          display: block
+          line-height: 30px
+          padding: 0 15px
+          margin: 3px
+          color: #7b7b7b
+          font-size: 14px
+          text-decoration: none
+          border: 1px solid
+          &:hover
+            color: #7111a7
+    &.categories
+      ul
+        padding: 0
+        li
+          list-style: none
+          line-height: 30px
+          font-size: 14px
+          border-bottom: 1px solid #c6c3c1
+          &.active
+            a
+              color: #7111a7
+        a
+          color: #7b7b7b
+          display: flex
+          justify-content: space-between
+          &:hover
+            color: #7111a7
+
+    &.share 
+      text-align: center
+    &.posts
+      ul
+        padding: 0
+      li
+        list-style: none
+        margin-bottom: 10px
+        > a
+          display: flex
+          align-items: center
+        img
+          width: 50px
+          height: 50px
+          margin-right: 20px
+        .title
+          color: #211134
+          font-size: 12px
+          line-height: 20px
+          font-family: 'ProximaNova Black'
+        .date
+          color: #a7a7a7
+          font-size: 12px
+          line-height: 20px
+
+.blog-navigation
+  margin: 20px 0 50px
+  &.double
+    display: flex
+    justify-content: space-between
+    a
+      border: 2px solid #6a04a3
+      padding: 0 7px
+  a
+    font-size: 18px
+    line-height: 30px
+    text-decoration: none
+    text-transform: uppercase
+    font-family: 'ProximaNova Black'
+    i 
+      color: #6a04a3
+    span
+      color: #6a04a3
+      text-decoration: underline
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+  .blog-area
+    padding: 20px
+  .blog-list .blog-item .share .icon
+    margin-right: 15px
+  .blog-list .blog-item img    
+    width: 100%
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+
+  .blog-list .blog-item.blog-item-wide .tags-list 
+    text-align: center
+    padding-top: 40px
+    position: relative
+    .fb-like
+      position: absolute
+      top: 0
+      left: 50%
+      margin-left: -50px
+
+  .blog-list .blog-item.blog-item-wide  .share
+    flex-wrap: wrap
+    justify-content: center
+    padding-top: 20px
+    padding-bottom: 20px
+    margin-top: 30px
+    .ya-share2
+      margin-left: 0!important
+  .blog-navigation.single
+    text-align: center
+  .blog-list
+    width: 100%
+    margin-right: 0
+  .blog-sidebar
+    width: 100%  
+  .get-updates form
+    flex-direction: column
+    .title
+      line-height: 20px!important
+    input[type=text]
+      flex: 0
+      margin: 15px 0
+      width: calc(100% - 40px) !important;
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+  .get-updates
+    margin-bottom: 0
+  .blog-sidebar .box
+    padding: 20px
+    &.opened
+      .data	
+        opacity: 1
+        visibility: visible
+        height: auto
+        padding-top: 15px
+      head
+        i
+          &:before
+            content: ''  
+  .blog-sidebar .box .head
+    text-align: left
+    margin: 0
+    display: flex
+    justify-content: space-between
+    align-items: center
+    cursor: pointer
+    font-family: 'ProximaNova Black'
+    i
+      display: block
+    &:after
+      display: none
+  .blog-sidebar .box .data
+      visibility: hidden
+      opacity: 0
+      height: 0
+      transition: all, 0.3s
+
+  .blog-list .blog-item .share
+    position: relative
+    margin-top: 70px
+    padding-top: 10px
+    padding-bottom: 15px
+    justify-content: space-around
+    .icon + .icon
+      text-align: right  
+    .ya-share2.up
+      position: absolute
+      top: -50px
+      left: 50%
+      margin-left: -60px
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+  /**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
